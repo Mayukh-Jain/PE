@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
 
 # Load the dataset
-data = pd.read_csv('kerala.csv')
+data = pd.read_csv('Bhuvneshwar 2022.csv')
 
 # Inspect the first few rows
 print(data.head())
@@ -18,8 +18,8 @@ data.fillna(method='ffill', inplace=True)  # Forward fill for simplicity
 
 # Define the features and the target
 # Replace 'feature1', 'feature2', 'target' with actual column names from your dataset
-X = data[['JAN', 'FEB', 'MAR']]  # Features (replace with actual features)
-y = data['FLOODS']  # Target (replace with the actual target column, e.g., flood risk)
+X = data[['temp', 'humidity', 'windspeed']]  # Features (replace with actual features)
+y = data['FLOOD']  # Target (replace with the actual target column, e.g., flood risk)
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
