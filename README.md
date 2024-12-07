@@ -1,4 +1,5 @@
 Project Title: Flood Risk Prediction and Mitigation Using SVM and Real-Time Weather Data
+
 Objective:
   The project aims to develop a flood risk prediction system using a Support Vector Machine (SVM) model, trained on key weather features such as rainfall, temperature, wind speed, and humidity. It integrates real-time weather data from the OpenWeatherMap API to assess flood risk for specific locations dynamically.
 
