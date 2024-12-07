@@ -11,6 +11,7 @@ Key Features:
   Real-Time Predictions: Uses live weather data to dynamically assess flood risks.
   Web Interface: A visually appealing and responsive front-end with video backgrounds and CSS styling.
   Mitigation Strategies: Includes detailed insights and strategies for flood prevention and response.
+  
 Potential Applications:
   Flood-prone areas for community safety and planning.
   Urban planning to identify and address vulnerable zones.
