@@ -92,4 +92,4 @@ Load the HTML file in a browser (e.g., http://127.0.0.1:3000) using a local serv
 Interact with the System:
 
 Enter a location in the input field and submit.
-The backend fetches live weather data, predicts the flood risk, and returns the result to be displayed on the web page.
+The backend fetches live weather data, predicts the flood risk, and returns the result to be displayed on the web page.   
